@@ -1,0 +1,15 @@
+var boo = true;
+var apology ="I am sorry";
+var timAge = 44;
+var date = new Date();
+var list = ['apples', 'banana'];
+console.log(boo);
+console.log(apology);
+console.log(timAge);
+console.log(date);
+console.log(list);
+console.log(typeof boo);
+console.log(typeof apology);
+console.log(typeof timAge);
+console.log(typeof date);
+console.log(typeof list);
