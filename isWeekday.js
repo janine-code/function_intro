@@ -1,5 +1,6 @@
 var isWeekday = function(day){
   var week = day.startsWith('s');
-  console.log(week);
+  return week;
 };
-isWeekday('Tuesday');
+var TuesdWeek = isWeekday('Tuesday');
+console.log(TuesdWeek);

@@ -1,5 +1,9 @@
 var isTuesday=function(day){
 var date= day.startsWith('Tu');
-console.log(date);
+return date;
 }
-  isTuesday("Monday");
+var result =  isTuesday("Monday");
+
+console.log(result);
+var result =  isTuesday("Tuesday");
+console.log(result);
