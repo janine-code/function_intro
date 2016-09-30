@@ -7,6 +7,6 @@ var sameWeekday = function(date1,date2){
   var weekno = weekDays[getDay];
   var weekDay2 = weekDays[getDay2];
   var check = weekno === weekDay2;
-  console.log(check);};
-  sameWeekday('2014-03-07','2014-03-21');
-  sameWeekday('2014-03-07','2014-03-27');
+return check};
+  console.log(sameWeekday('2014-03-07','2014-03-21'));
+  console.log(sameWeekday('2014-03-07','2014-03-27'));

@@ -1,6 +1,6 @@
 var date = new Date();
 var yearsAgo= function(year){
   var yearCalc = date.getFullYear() - year;
-  console.log("My age is "+ yearCalc);
+  return "My age is "+ yearCalc;
   };
-yearsAgo(1200);
+console.log(yearsAgo(1200));

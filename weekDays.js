@@ -1,5 +1,6 @@
+var date = new Date();
 var weekDays= ['Sunday','Monday', 'Tuesday', 'Wednesday','Thursday', 'Friday','Saterday'];
 var getDay = function (){
-  console.log(weekDays[date.getDay()]);
+  return weekDays[date.getDay()];
 }
-getDay();
+console.log(getDay());

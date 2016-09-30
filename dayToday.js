@@ -1,4 +1,5 @@
+var date = new Date();
 var dayToday = function(){
-  console.log(date.getDay());
+  return date.getDay();
 };
-dayToday();
+console.log(dayToday());

@@ -1,29 +1,29 @@
 var isFromBellville = function (num){
   var regNum = num.startsWith("CY");
-  console.log(regNum);
+  return regNum;
 }
-isFromBellville("gy 779585");
+console.log(isFromBellville("gy 779585"));
 
 var isFromPaarl = function (num){
   var regNum = num.startsWith("CJ");
-  console.log(regNum);
+  return regNum;
 }
-isFromPaarl("gy 779585");
+console.log(isFromPaarl("gy 779585"));
 
 var isFromCapeTown = function (num){
   var regNum = num.startsWith("CA 732-127");
-  console.log(regNum);
+  return regNum;
 }
-isFromCapeTown("gy 779585");
+console.log(isFromCapeTown("gy 779585"));
 
 var isFromGauteng = function (num){
   var regNum = num.startsWith("DR 12 TY GP");
-  console.log(regNum);
+  return regNum;
 }
-isFromGauteng("gy 779585");
+console.log(isFromGauteng("gy 779585"));
 
 var isFromLimpopo = function (num){
   var regNum = num.endsWith("T 122 L");
-  console.log(regNum);
+  return regNum;
 }
-isFromLimpopo("gy 779585");
+console.log(isFromLimpopo("gy 779585"));
